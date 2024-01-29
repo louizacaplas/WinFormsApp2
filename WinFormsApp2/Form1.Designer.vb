@@ -31,17 +31,20 @@ Partial Class Form1
         ' 
         ' Login
         ' 
-        Login.Location = New Point(408, 292)
+        Login.BackColor = Color.Maroon
+        Login.ForeColor = Color.Black
+        Login.Location = New Point(372, 301)
         Login.Name = "Login"
-        Login.Size = New Size(75, 23)
+        Login.Size = New Size(116, 39)
         Login.TabIndex = 0
         Login.Text = "Login"
-        Login.UseVisualStyleBackColor = True
+        Login.UseVisualStyleBackColor = False
         ' 
         ' txtUser
         ' 
         txtUser.AutoSize = True
-        txtUser.Location = New Point(111, 92)
+        txtUser.BackColor = Color.Maroon
+        txtUser.Location = New Point(157, 110)
         txtUser.Name = "txtUser"
         txtUser.Size = New Size(60, 15)
         txtUser.TabIndex = 1
@@ -50,7 +53,8 @@ Partial Class Form1
         ' txtpass
         ' 
         txtpass.AutoSize = True
-        txtpass.Location = New Point(101, 220)
+        txtpass.BackColor = Color.Maroon
+        txtpass.Location = New Point(157, 213)
         txtpass.Name = "txtpass"
         txtpass.Size = New Size(57, 15)
         txtpass.TabIndex = 2
@@ -58,14 +62,14 @@ Partial Class Form1
         ' 
         ' TextBox1
         ' 
-        TextBox1.Location = New Point(296, 92)
+        TextBox1.Location = New Point(274, 102)
         TextBox1.Name = "TextBox1"
         TextBox1.Size = New Size(310, 23)
         TextBox1.TabIndex = 3
         ' 
         ' TextBox2
         ' 
-        TextBox2.Location = New Point(296, 202)
+        TextBox2.Location = New Point(274, 205)
         TextBox2.Name = "TextBox2"
         TextBox2.Size = New Size(310, 23)
         TextBox2.TabIndex = 4
@@ -74,6 +78,7 @@ Partial Class Form1
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
+        BackColor = Color.FromArgb(CByte(192), CByte(192), CByte(255))
         ClientSize = New Size(701, 450)
         Controls.Add(TextBox2)
         Controls.Add(TextBox1)
