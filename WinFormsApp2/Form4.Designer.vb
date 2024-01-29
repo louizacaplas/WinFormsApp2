@@ -35,7 +35,7 @@ Partial Class Form4
         ' 
         ' PictureBox1
         ' 
-        PictureBox1.Location = New Point(443, 121)
+        PictureBox1.Location = New Point(455, 121)
         PictureBox1.Name = "PictureBox1"
         PictureBox1.Size = New Size(178, 110)
         PictureBox1.TabIndex = 0
@@ -43,7 +43,7 @@ Partial Class Form4
         ' 
         ' PictureBox2
         ' 
-        PictureBox2.Location = New Point(120, 121)
+        PictureBox2.Location = New Point(166, 121)
         PictureBox2.Name = "PictureBox2"
         PictureBox2.Size = New Size(199, 110)
         PictureBox2.TabIndex = 1
@@ -54,9 +54,9 @@ Partial Class Form4
         Label1.AutoSize = True
         Label1.Location = New Point(364, 32)
         Label1.Name = "Label1"
-        Label1.Size = New Size(41, 15)
+        Label1.Size = New Size(50, 15)
         Label1.TabIndex = 2
-        Label1.Text = "Label1"
+        Label1.Text = "JANKEN"
         ' 
         ' Label2
         ' 
@@ -77,7 +77,7 @@ Partial Class Form4
         ' 
         ' paper
         ' 
-        paper.Location = New Point(320, 298)
+        paper.Location = New Point(364, 296)
         paper.Name = "paper"
         paper.Size = New Size(98, 76)
         paper.TabIndex = 5
