@@ -43,7 +43,7 @@ Partial Class Form3
         ' 
         Janken.BackColor = Color.FromArgb(CByte(192), CByte(192), CByte(255))
         Janken.ForeColor = Color.FromArgb(CByte(64), CByte(0), CByte(0))
-        Janken.Location = New Point(97, 153)
+        Janken.Location = New Point(97, 171)
         Janken.Name = "Janken"
         Janken.Size = New Size(248, 87)
         Janken.TabIndex = 1

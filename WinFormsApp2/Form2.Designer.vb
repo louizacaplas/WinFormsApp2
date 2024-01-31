@@ -38,6 +38,7 @@ Partial Class Form2
         Button14 = New Button()
         Button15 = New Button()
         TextBox1 = New TextBox()
+        Button16 = New Button()
         SuspendLayout()
         ' 
         ' Button1
@@ -198,12 +199,23 @@ Partial Class Form2
         TextBox1.Size = New Size(434, 56)
         TextBox1.TabIndex = 15
         ' 
+        ' Button16
+        ' 
+        Button16.BackColor = SystemColors.ControlDarkDark
+        Button16.Location = New Point(520, 477)
+        Button16.Name = "Button16"
+        Button16.Size = New Size(75, 57)
+        Button16.TabIndex = 16
+        Button16.Text = "Back"
+        Button16.UseVisualStyleBackColor = False
+        ' 
         ' Form2
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = SystemColors.ActiveCaption
         ClientSize = New Size(607, 546)
+        Controls.Add(Button16)
         Controls.Add(TextBox1)
         Controls.Add(Button15)
         Controls.Add(Button14)
@@ -242,4 +254,5 @@ Partial Class Form2
     Friend WithEvents Button14 As Button
     Friend WithEvents Button15 As Button
     Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents Button16 As Button
 End Class

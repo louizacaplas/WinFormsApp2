@@ -70,7 +70,7 @@
 
 
     Private Sub Label4_Click(sender As Object, e As EventArgs) Handles Label4.Click
-        Form2.Show()
+        Form3.Show()
         Me.Close()
     End Sub
 

@@ -29,160 +29,187 @@ Partial Class Form6
         TILE4 = New Button()
         TILE5 = New Button()
         TILE6 = New Button()
-        Button8 = New Button()
-        TILE7 = New Button()
+        ENDED = New Button()
         TILE8 = New Button()
         TILR9 = New Button()
         TILE10 = New Button()
         TILE11 = New Button()
-        TILE12 = New Button()
         Label1 = New Label()
+        TILE7 = New Button()
+        TILE12 = New Button()
+        EXITT = New Button()
+        Label2 = New Label()
         SuspendLayout()
         ' 
         ' START
         ' 
-        START.BackColor = Color.FromArgb(CByte(64), CByte(64), CByte(64))
-        START.Font = New Font("Segoe UI", 21.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        START.Location = New Point(12, 131)
+        START.Location = New Point(12, 144)
         START.Name = "START"
-        START.Size = New Size(42, 261)
+        START.Size = New Size(23, 291)
         START.TabIndex = 0
         START.Text = "START"
-        START.UseVisualStyleBackColor = False
+        START.UseVisualStyleBackColor = True
         ' 
         ' TILE1
         ' 
-        TILE1.BackColor = Color.White
-        TILE1.Location = New Point(89, 109)
+        TILE1.Location = New Point(88, 168)
         TILE1.Name = "TILE1"
-        TILE1.Size = New Size(80, 68)
+        TILE1.Size = New Size(75, 55)
         TILE1.TabIndex = 1
-        TILE1.UseVisualStyleBackColor = False
+        TILE1.Text = "TILE1"
+        TILE1.UseVisualStyleBackColor = True
         ' 
         ' TILE2
         ' 
-        TILE2.BackColor = Color.White
-        TILE2.Location = New Point(89, 316)
+        TILE2.Location = New Point(88, 285)
         TILE2.Name = "TILE2"
-        TILE2.Size = New Size(80, 76)
+        TILE2.Size = New Size(75, 55)
         TILE2.TabIndex = 2
-        TILE2.UseVisualStyleBackColor = False
+        TILE2.Text = "TILE2"
+        TILE2.UseVisualStyleBackColor = True
         ' 
         ' TILE3
         ' 
-        TILE3.Location = New Point(229, 118)
+        TILE3.Location = New Point(183, 109)
         TILE3.Name = "TILE3"
-        TILE3.Size = New Size(80, 68)
+        TILE3.Size = New Size(75, 55)
         TILE3.TabIndex = 3
+        TILE3.Text = "TILE3"
         TILE3.UseVisualStyleBackColor = True
         ' 
         ' TILE4
         ' 
-        TILE4.Location = New Point(229, 303)
+        TILE4.Location = New Point(183, 340)
         TILE4.Name = "TILE4"
-        TILE4.Size = New Size(76, 72)
+        TILE4.Size = New Size(75, 55)
         TILE4.TabIndex = 4
+        TILE4.Text = "TILE4"
         TILE4.UseVisualStyleBackColor = True
         ' 
         ' TILE5
         ' 
-        TILE5.Location = New Point(354, 137)
+        TILE5.Location = New Point(298, 167)
         TILE5.Name = "TILE5"
-        TILE5.Size = New Size(76, 72)
+        TILE5.Size = New Size(75, 56)
         TILE5.TabIndex = 5
+        TILE5.Text = "TILE5"
         TILE5.UseVisualStyleBackColor = True
         ' 
         ' TILE6
         ' 
-        TILE6.Location = New Point(354, 332)
+        TILE6.Location = New Point(298, 285)
         TILE6.Name = "TILE6"
-        TILE6.Size = New Size(76, 76)
+        TILE6.Size = New Size(75, 56)
         TILE6.TabIndex = 6
+        TILE6.Text = "TILE6"
         TILE6.UseVisualStyleBackColor = True
         ' 
-        ' Button8
+        ' ENDED
         ' 
-        Button8.BackColor = Color.FromArgb(CByte(64), CByte(64), CByte(64))
-        Button8.Font = New Font("Segoe UI", 27.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Button8.Location = New Point(819, 164)
-        Button8.Name = "Button8"
-        Button8.Size = New Size(42, 211)
-        Button8.TabIndex = 7
-        Button8.Text = "END"
-        Button8.UseVisualStyleBackColor = False
-        ' 
-        ' TILE7
-        ' 
-        TILE7.Location = New Point(473, 91)
-        TILE7.Name = "TILE7"
-        TILE7.Size = New Size(75, 70)
-        TILE7.TabIndex = 9
-        TILE7.UseVisualStyleBackColor = True
+        ENDED.Location = New Point(729, 116)
+        ENDED.Name = "ENDED"
+        ENDED.Size = New Size(28, 279)
+        ENDED.TabIndex = 7
+        ENDED.Text = "END"
+        ENDED.UseVisualStyleBackColor = True
         ' 
         ' TILE8
         ' 
-        TILE8.Location = New Point(473, 303)
+        TILE8.Location = New Point(405, 339)
         TILE8.Name = "TILE8"
-        TILE8.Size = New Size(75, 72)
-        TILE8.TabIndex = 10
+        TILE8.Size = New Size(75, 56)
+        TILE8.TabIndex = 8
+        TILE8.Text = "TILE8"
         TILE8.UseVisualStyleBackColor = True
         ' 
         ' TILR9
         ' 
-        TILR9.Location = New Point(581, 131)
+        TILR9.Location = New Point(524, 168)
         TILR9.Name = "TILR9"
-        TILR9.Size = New Size(75, 75)
-        TILR9.TabIndex = 11
+        TILR9.Size = New Size(75, 56)
+        TILR9.TabIndex = 9
+        TILR9.Text = "TILR9"
         TILR9.UseVisualStyleBackColor = True
         ' 
         ' TILE10
         ' 
-        TILE10.Location = New Point(593, 332)
+        TILE10.Location = New Point(524, 285)
         TILE10.Name = "TILE10"
-        TILE10.Size = New Size(75, 76)
-        TILE10.TabIndex = 13
+        TILE10.Size = New Size(75, 56)
+        TILE10.TabIndex = 10
+        TILE10.Text = "TILE10"
         TILE10.UseVisualStyleBackColor = True
         ' 
         ' TILE11
         ' 
-        TILE11.Location = New Point(723, 89)
+        TILE11.Location = New Point(648, 109)
         TILE11.Name = "TILE11"
-        TILE11.Size = New Size(75, 72)
-        TILE11.TabIndex = 14
+        TILE11.Size = New Size(75, 56)
+        TILE11.TabIndex = 11
+        TILE11.Text = "TILE11"
         TILE11.UseVisualStyleBackColor = True
-        ' 
-        ' TILE12
-        ' 
-        TILE12.Location = New Point(723, 303)
-        TILE12.Name = "TILE12"
-        TILE12.Size = New Size(75, 76)
-        TILE12.TabIndex = 15
-        TILE12.UseVisualStyleBackColor = True
         ' 
         ' Label1
         ' 
         Label1.AutoSize = True
-        Label1.ForeColor = Color.White
-        Label1.Location = New Point(189, 441)
+        Label1.Location = New Point(141, 451)
         Label1.Name = "Label1"
         Label1.Size = New Size(41, 15)
-        Label1.TabIndex = 16
+        Label1.TabIndex = 12
         Label1.Text = "Label1"
+        ' 
+        ' TILE7
+        ' 
+        TILE7.Location = New Point(405, 110)
+        TILE7.Name = "TILE7"
+        TILE7.Size = New Size(75, 56)
+        TILE7.TabIndex = 14
+        TILE7.Text = "TILE7"
+        TILE7.UseVisualStyleBackColor = True
+        ' 
+        ' TILE12
+        ' 
+        TILE12.Location = New Point(648, 340)
+        TILE12.Name = "TILE12"
+        TILE12.Size = New Size(75, 55)
+        TILE12.TabIndex = 15
+        TILE12.Text = "TILE12"
+        TILE12.UseVisualStyleBackColor = True
+        ' 
+        ' EXITT
+        ' 
+        EXITT.Location = New Point(682, 443)
+        EXITT.Name = "EXITT"
+        EXITT.Size = New Size(75, 78)
+        EXITT.TabIndex = 16
+        EXITT.Text = "EXIT"
+        EXITT.UseVisualStyleBackColor = True
+        ' 
+        ' Label2
+        ' 
+        Label2.AutoSize = True
+        Label2.Location = New Point(354, 464)
+        Label2.Name = "Label2"
+        Label2.Size = New Size(41, 15)
+        Label2.TabIndex = 17
+        Label2.Text = "Label2"
         ' 
         ' Form6
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
-        BackColor = Color.Black
-        ClientSize = New Size(873, 519)
-        Controls.Add(Label1)
+        BackColor = Color.White
+        ClientSize = New Size(772, 526)
+        Controls.Add(Label2)
+        Controls.Add(EXITT)
         Controls.Add(TILE12)
+        Controls.Add(TILE7)
+        Controls.Add(Label1)
         Controls.Add(TILE11)
         Controls.Add(TILE10)
         Controls.Add(TILR9)
         Controls.Add(TILE8)
-        Controls.Add(TILE7)
-        Controls.Add(Button8)
+        Controls.Add(ENDED)
         Controls.Add(TILE6)
         Controls.Add(TILE5)
         Controls.Add(TILE4)
@@ -190,6 +217,7 @@ Partial Class Form6
         Controls.Add(TILE2)
         Controls.Add(TILE1)
         Controls.Add(START)
+        ForeColor = Color.Black
         Name = "Form6"
         Text = "Form6"
         ResumeLayout(False)
@@ -203,12 +231,14 @@ Partial Class Form6
     Friend WithEvents TILE4 As Button
     Friend WithEvents TILE5 As Button
     Friend WithEvents TILE6 As Button
-    Friend WithEvents Button8 As Button
-    Friend WithEvents TILE7 As Button
+    Friend WithEvents ENDED As Button
     Friend WithEvents TILE8 As Button
     Friend WithEvents TILR9 As Button
     Friend WithEvents TILE10 As Button
     Friend WithEvents TILE11 As Button
-    Friend WithEvents TILE12 As Button
     Friend WithEvents Label1 As Label
+    Friend WithEvents TILE7 As Button
+    Friend WithEvents TILE12 As Button
+    Friend WithEvents EXITT As Button
+    Friend WithEvents Label2 As Label
 End Class

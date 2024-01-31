@@ -106,8 +106,12 @@ Public Class Form2
                 TextBox1.Text = Result.ToString()
         End Select
 
-        Form4.Show()
+
     End Sub
 
+    Private Sub Button16_Click(sender As Object, e As EventArgs) Handles Button16.Click
+        Form3.Show()
+        Me.Hide()
 
+    End Sub
 End Class
