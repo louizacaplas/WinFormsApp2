@@ -38,7 +38,7 @@ Partial Class Form6
         TILE7 = New Button()
         TILE12 = New Button()
         EXITT = New Button()
-        Label2 = New Label()
+        label2 = New Label()
         SuspendLayout()
         ' 
         ' START
@@ -52,7 +52,7 @@ Partial Class Form6
         ' 
         ' TILE1
         ' 
-        TILE1.Location = New Point(88, 168)
+        TILE1.Location = New Point(70, 169)
         TILE1.Name = "TILE1"
         TILE1.Size = New Size(75, 55)
         TILE1.TabIndex = 1
@@ -88,7 +88,7 @@ Partial Class Form6
         ' 
         ' TILE5
         ' 
-        TILE5.Location = New Point(298, 167)
+        TILE5.Location = New Point(279, 156)
         TILE5.Name = "TILE5"
         TILE5.Size = New Size(75, 56)
         TILE5.TabIndex = 5
@@ -97,7 +97,7 @@ Partial Class Form6
         ' 
         ' TILE6
         ' 
-        TILE6.Location = New Point(298, 285)
+        TILE6.Location = New Point(279, 284)
         TILE6.Name = "TILE6"
         TILE6.Size = New Size(75, 56)
         TILE6.TabIndex = 6
@@ -115,7 +115,7 @@ Partial Class Form6
         ' 
         ' TILE8
         ' 
-        TILE8.Location = New Point(405, 339)
+        TILE8.Location = New Point(405, 340)
         TILE8.Name = "TILE8"
         TILE8.Size = New Size(75, 56)
         TILE8.TabIndex = 8
@@ -124,7 +124,7 @@ Partial Class Form6
         ' 
         ' TILR9
         ' 
-        TILR9.Location = New Point(524, 168)
+        TILR9.Location = New Point(524, 156)
         TILR9.Name = "TILR9"
         TILR9.Size = New Size(75, 56)
         TILR9.TabIndex = 9
@@ -142,7 +142,7 @@ Partial Class Form6
         ' 
         ' TILE11
         ' 
-        TILE11.Location = New Point(648, 109)
+        TILE11.Location = New Point(648, 110)
         TILE11.Name = "TILE11"
         TILE11.Size = New Size(75, 56)
         TILE11.TabIndex = 11
@@ -154,9 +154,9 @@ Partial Class Form6
         Label1.AutoSize = True
         Label1.Location = New Point(141, 451)
         Label1.Name = "Label1"
-        Label1.Size = New Size(41, 15)
+        Label1.Size = New Size(50, 15)
         Label1.TabIndex = 12
-        Label1.Text = "Label1"
+        Label1.Text = "reaction"
         ' 
         ' TILE7
         ' 
@@ -185,22 +185,22 @@ Partial Class Form6
         EXITT.Text = "EXIT"
         EXITT.UseVisualStyleBackColor = True
         ' 
-        ' Label2
+        ' label2
         ' 
-        Label2.AutoSize = True
-        Label2.Location = New Point(354, 464)
-        Label2.Name = "Label2"
-        Label2.Size = New Size(41, 15)
-        Label2.TabIndex = 17
-        Label2.Text = "Label2"
+        label2.AutoSize = True
+        label2.Location = New Point(699, 425)
+        label2.Name = "label2"
+        label2.Size = New Size(36, 15)
+        label2.TabIndex = 17
+        label2.Text = "finish"
         ' 
         ' Form6
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
-        BackColor = Color.White
+        BackColor = Color.LightCoral
         ClientSize = New Size(772, 526)
-        Controls.Add(Label2)
+        Controls.Add(label2)
         Controls.Add(EXITT)
         Controls.Add(TILE12)
         Controls.Add(TILE7)
@@ -240,5 +240,5 @@ Partial Class Form6
     Friend WithEvents TILE7 As Button
     Friend WithEvents TILE12 As Button
     Friend WithEvents EXITT As Button
-    Friend WithEvents Label2 As Label
+    Friend WithEvents label2 As Label
 End Class
