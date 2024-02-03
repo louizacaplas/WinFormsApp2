@@ -1,11 +1,10 @@
 ﻿Imports System.Configuration
 
 Public Class Form2
-
-
     Dim first As Double
     Dim second As Double
     Dim operand As String
+    Dim operator_selector As Boolean = False
     Private Sub Button7_Click(sender As Object, e As EventArgs) Handles Button7.Click
         TextBox1.Text = TextBox1.Text & sender.text
 
@@ -82,7 +81,7 @@ Public Class Form2
     Private Sub Button14_Click(sender As Object, e As EventArgs) Handles Button14.Click
         first = Val(TextBox1.Text)
         TextBox1.Text = ""
-        TextBox1.Focus()
+        operator_selector = True
         operand = "*"
 
     End Sub
@@ -96,13 +95,13 @@ Public Class Form2
                 Result = first + second
                 TextBox1.Text = Result.ToString()
             Case "-"
-                Result = first + second
-                TextBox1.Text = Result.ToString()
-            Case "/"
-                Result = first + second
+                Result = first - second
                 TextBox1.Text = Result.ToString()
             Case "*"
-                Result = first + second
+                Result = first * second
+                TextBox1.Text = Result.ToString()
+            Case "/"
+                Result = first / second
                 TextBox1.Text = Result.ToString()
         End Select
 
@@ -116,6 +115,10 @@ Public Class Form2
     End Sub
 
     Private Sub Form2_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
+
+    Private Sub TextBox1_TextChanged(sender As Object, e As EventArgs) Handles TextBox1.TextChanged
 
     End Sub
 End Class
